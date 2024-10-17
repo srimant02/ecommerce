@@ -84,7 +84,7 @@ mongoose
   .catch((error) => console.log(error));
 
 const app = express();
-const PORT = 5000;
+const PORT = 8000;
 
 app.use(
   cors({
