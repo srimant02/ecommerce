@@ -79,7 +79,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 //create a database connection using environment variable
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect("mongodb+srv://srimantacharjya:NSgq61MG3jePj7Nm@cluster0.an5uq.mongodb.net/")
   .then(() => console.log("MongoDB connected"))
   .catch((error) => console.log(error));
 
