@@ -1,5 +1,5 @@
-import cron from "cron";
-import https from "https";
+const cron = require("cron");
+const https = require("https");
 
 const URL = "https://mern-ecommerce-59xs.onrender.com";
 
@@ -17,4 +17,4 @@ const job = new cron.CronJob("*/14 * * * *", function () {
 		});
 });
 
-export default job;
+module.exports = { job };
