@@ -29,7 +29,7 @@ const PORT = 5000;
 
 app.use(
   cors({
-    origin: ["https://mern-ecommerce-59xs.onrender.com"],
+    origin: ["*"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
