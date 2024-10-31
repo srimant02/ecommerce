@@ -29,7 +29,7 @@ const PORT = 5000;
 
 app.use(
   cors({
-    origin: ["*"],
+    origin: ["https://ecommerce-8t0j.onrender.com"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
